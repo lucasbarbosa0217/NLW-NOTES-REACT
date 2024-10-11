@@ -1,8 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import { set } from "date-fns";
-import {HandHelping, X} from  "lucide-react";
 import { ChangeEvent, FormEvent, useState } from "react";
 import {toast} from "sonner"
+import {X} from "@phosphor-icons/react"
 
 interface newNoteCardProps{
   onNoteCreated: (conten:string) => void
